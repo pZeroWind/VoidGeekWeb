@@ -1,0 +1,143 @@
+#A_classification {
+	margin: 0px auto;
+	width: 1360px;
+
+}
+
+#A_Posts {
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 1360px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.A_Posts_left ul {
+	/* margin-top:10px ; */
+	width: 1000px;
+	height: auto;
+}
+
+.A_Posts_left ul li {
+	width: 1000px;
+	background-color: whitesmoke;
+	height: 130px;
+	border-bottom: 1px solid #e0e1e1;
+}
+
+
+
+.A_Posts_left {
+	width: 1000px;
+	margin-right: 20px;
+	/* border: 1px solid red; */
+	height: auto;
+
+}
+
+.A_classification_ul {
+	justify-content: space-around;
+	display: flex;
+	flex-flow: row nowrap;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: lightgray;
+
+}
+
+.A_classification_ul li {
+	cursor: pointer;
+	margin: 10px;
+	color: #555;
+	transition: all 0.5s;
+}
+
+.A_classification_ul li:hover {
+	font-size: 18px;
+}
+
+.A_classification_ul .selected {
+	font-size: 18px;
+	color: #555;
+}
+
+.A_title {
+	font-weight: bold;
+	text-align: left;
+	margin-left: 10px;
+	padding-top:10px ;
+}
+.A_title a:hover{
+	text-decoration: underline;
+}
+.A_content_img {
+	margin-left: 0px;
+	width: 120px;
+	height: 80px;
+	/* border: 1px solid black; */
+}
+.A_content{
+	display: flex;
+	flex-flow: row nowrap;
+	height: 80px;
+}
+.A_content_content{
+	margin-left: 10px;
+	height: 100%;
+}
+.A_Posts_right {
+	width: 340px;
+	height: 100vh;
+	/* border: 1px solid red; */
+}
+
+.A_Posts_right_top {
+	margin-top: 20px;
+	width: 340px;
+	min-height: 250px;
+	font-weight: bold;
+	background-color: white;
+	/* margin-top: 5px; */
+}
+.A_Posts_right_bottom{
+	margin-top: 20px;
+	width: 340px;
+	min-height: 440px;
+	background-color: white;
+}
+.A_Posts_right_top_li{
+	
+}
+.A_content_content{
+	position: relative;
+	width: 100%;
+	font-size: 14px;
+}
+.A_content_content_operation{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 200px;
+}
+.A_content_content_operation1{
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 90px;
+}
+.Svg{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,316 @@
+body,html,#app{
+	height: 100%;
+}
+#L_box{
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	background-image: radial-gradient(dimgray,black);
+}
+#L_content{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px black;
+	width: 600px;
+	height: 400px;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0px auto;
+	transform: translateY(40%);
+}
+.L_change{
+	width: 600px;
+	position: relative;
+}
+.L_logo{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2.5px solid black;
+	background-color: white;
+	margin: 0px auto;
+	position: absolute;
+	top: -25px;
+	left: 258px;
+}
+.L_l_txt{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	background-color: lightblue;
+	height: 60px;
+	align-items: center;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+}
+.L_l_login,.L_l_register{
+	cursor: pointer;
+	-webkit-user-select: none;
+	width: 50%;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px 0px;
+	background-color: gray;
+}
+.L_l_select{
+	background-color: #000000;
+}
+#L_kuang{
+	display: flex;
+	height: 100%;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+#L_kuang div,input{
+	margin-top: 20px;
+}
+.L_vid,.L_pwd{
+	width: 80%;
+	height: 30px;
+	border: none;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+}
+.L_checkbox{
+	display: flex;
+	flex-flow: row nowrap;
+}
+.L_forget{
+	-webkit-user-select: none;
+	margin-left: 235px;
+}
+.L_forget:hover{
+	font-weight: bold;
+}
+.L_login{
+	width: 480px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 0;
+	font-weight: bold;
+	color: lightgray;
+	background-color: dimgray;
+}
+.L_login:hover{
+	background-color: red;
+	color: white;
+}
+#L_res{
+	height: 400px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.L_username,.L_userpwd,.L_truepwd{
+	width: 100%;
+}
+.L_u_inp,.L_u_pwd,.L_u_true{
+	width: 80%;
+	height: 30px;
+	border: none;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+}
+.L_re_btn{
+	-webkit-user-select: none;
+	position: relative;
+	top: 40px;
+	left: 210px;
+	width: 75px;
+	cursor: pointer;
+}
+.L_re_btn:hover .L_re_next{
+	color: dimgray;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.L_re_next{
+	user-select: none;
+	position: absolute;
+	top: -15px;
+	left: 15px;
+	color: lightgray;
+	font-size: 14px;
+}
+#L_res_next{
+	display: flex;
+	height: 100%;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.L_n_birthday,.L_n_phone{
+	width: 80%;
+	height: 30px;
+	border: none;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+}
+.L_n_sex{
+	margin-top: 20px;
+	width: 80%;
+	height: 30px;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+	user-select: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.L_n_sex_man,.L_n_sex_women{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+.L_n_sex_man input,.L_n_sex_women input{
+	margin-top: 0px;
+}
+.L_n_sex_man span,.L_n_sex_women span{
+	margin-left: 5px;
+}
+.L_n_prvebox{
+	user-select: none;
+	cursor: pointer;
+	position: absolute;
+	bottom: 35px;
+	left: 50px;
+	color: lightgray;
+	font-size: 14px;
+}
+.L_n_btn{
+	user-select: none;
+	cursor: pointer;
+	position: absolute;
+	bottom: 35px;
+	right: 50px;
+	color: lightgray;
+	font-size: 14px;
+}
+.L_n_prvebox:hover .L_n_prvetxt{
+	color: dimgray;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.L_n_btn:hover .L_n_next{
+	color: dimgray;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#L_n_three{
+	height: 400px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.L_t_email{
+	width: 80%;
+	height: 30px;
+	border: none;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+}
+.L_t_true{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 80%;
+}
+.L_t_tnum{
+	width: 80%;
+	height: 30px;
+	border: none;
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	font-weight: bold;
+	margin-left: -10px;
+}
+.L_t_tbtn{
+	width: 20%;
+	outline: none;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	margin-left: 20px;
+	transform: translateX(10px);
+}
+.L_t_tbtn:hover{
+	background-color: red;
+	color: white;
+}
+.L_t_tbtnsecond{
+	width: 20%;
+	outline: none;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	margin-left: 20px;
+	transform: translateX(10px);
+}
+.L_t_resgter{
+	width: 480px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 0;
+	font-weight: bold;
+	color: lightgray;
+	background-color: dimgray;
+}
+.L_t_resgter:hover{
+	background-color: red;
+	color: white;
+}
+#L_n_four{
+	height: 400px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.L_f_tbtn{
+	width: 60px;
+	border-radius: 10px;
+	border: none;
+	padding: 10px 0;
+	font-weight: bold;
+	color: lightgray;
+	background-color: dimgray;
+}
+.L_f_tbtn:hover{
+	background-color: red;
+	color: white;
+}
+.L_f_title{
+	transform: translateY(-40px);
+}
+
+.L_n_phone .el-input__inner{
+	margin: 0;
+	border: none;
+	outline: none;
+	background-color: #eee;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+	width: 80%;
+}

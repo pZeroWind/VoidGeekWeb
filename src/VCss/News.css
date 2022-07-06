@@ -1,0 +1,263 @@
+/* 外层最大div */
+#N_Max {
+	width: 1000px;
+	height: 773px;
+	background-color: white;
+	margin: 0px auto;
+	display: flex;
+	flex-flow: row nowrap;
+	border: 1px solid gainsboro;
+	border-top: none;
+}
+
+.el-tabs {
+	border-right: 1px solid lightgray;
+}
+
+.el-tabs__header {
+	margin-bottom: 0;
+	background-color: white;
+}
+
+.el-tabs__nav .is-top {
+	height: 70px;
+}
+
+.el-tabs__item {
+	font-weight: bold;
+	height: 71px;
+	line-height: 71px;
+}
+
+.is-active {
+	background-color: snow;
+}
+
+/* 聊天对象选择区 */
+#N_left {
+	height: 701px;
+	background-color: snow;
+	border-left: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+
+/* 个人头像及昵称 */
+.N_left_top {
+	height: 70px;
+	background-color: snow;
+	border-bottom: 1px solid gainsboro;
+	display: flex;
+	align-items: center;
+	-webkit-user-select: none;
+	cursor: pointer;
+}
+
+.N_left_top_sel {
+	background-color: #fff;
+}
+
+.N_left_top_div {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.N_left_top_img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.N_left_top_name {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/* 聊天对象头像、昵称、时间、是否关注和内容 */
+.div_img {
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.N_left_top_img_content {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.div_name {
+	height: 40px;
+	width: 200px;
+	text-align: left;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.N_left_top_name_content {
+	height: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.N_concerned {
+	margin-left: 10px;
+	height: 15px;
+	width: 40px;
+	font-size: 12px;
+	line-height: 15px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.N_time {
+	margin-left: 10px;
+	height: 15px;
+	width: auto;
+	font-size: 12px;
+	line-height: 15px;
+	color: gray;
+	text-align: center;
+}
+
+.N_usercontent {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+
+/* 聊天显示框 */
+#N_right {
+	width: 850px;
+	height: 771px;
+	background-color: white;
+	border: 1px solid gainsboro;
+}
+
+/* 顶部聊天对象的昵称 */
+#N_right_div_top {
+	height: 70px;
+	border-bottom: 1px solid lightgray;
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+
+.N_right_top_name {
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	width: auto;
+	text-align: left;
+	height: auto;
+}
+
+/* 用户与聊天对象的聊天记录 */
+#N_right_div_center {
+	height: 510px;
+	background-color: white;
+	border-bottom: 1px solid lightgray;
+	overflow-y: scroll;
+}
+
+.N_char {
+	margin: 10px;
+	width: 700px;
+	height: auto;
+	/* background-color: gold; */
+}
+
+.char_time {
+	padding: 5px;
+	font-size: 13px;
+	text-align: center;
+	color: gray;
+}
+
+.char_content {
+	width: 700px;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.char_object_head {
+	margin-left: 10px;
+	width: 35px;
+	height: 35px;
+	text-align: left;
+}
+
+.char_object_img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.char_object_div_content {
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	width: 300px;
+	height: auto;
+	background-color: whitesmoke;
+	padding: 25px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/* 用户聊天记录 */
+.N_char_user {
+	margin: 10px;
+	width: 700px;
+	height: auto;
+}
+
+.char_content_user {
+	width: 700px;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+}
+
+.char_object_head_user {
+	margin-left: 10px;
+	width: 35px;
+	height: 35px;
+	text-align: right;
+}
+
+.char_object_img_user {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.char_object_div_content_user {
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 10px;
+	width: 300px;
+	height: auto;
+	background-color: whitesmoke;
+	padding: 25px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+/* 用户输入框 */
+#N_right_div_bottom {
+	height: 190px;
+	background-color: snow;
+}

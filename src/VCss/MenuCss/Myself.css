@@ -1,0 +1,525 @@
+#My_all {
+
+	margin-top: 20px;
+	min-width: 1200px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#My_left {
+
+	width: 20%;
+}
+
+#My_right {
+	width: 80%;
+	background-color: white;
+	height: auto;
+}
+
+.My_Collection_li {
+	width: 100%;
+	height: 130px;
+	background-color: white;
+	border-bottom: 1px solid gainsboro;
+}
+
+.My_left_ul {
+	background-color: white;
+	/* margin-left: 40px; */
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.My_left_ul li {
+	padding: 20px;
+	cursor: pointer;
+
+}
+
+.My_select {
+	/* 	color: gray; */
+	border-right: 3px solid gainsboro;
+	border-left: 3px solid gainsboro;
+	background-color: whitesmoke;
+}
+
+#My_r_u_left {
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	position: relative;
+}
+
+.My_userimg {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 50px;
+	user-select: none;
+}
+
+.My_uploaddiv {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50px;
+	background-color: #323232;
+	opacity: 0.5;
+}
+
+.My_imgupload {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	top: 40px;
+	user-select: none;
+}
+
+.My_username {}
+
+.My_mess_diago {
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0px auto;
+	border: none;
+}
+
+.My_mess_box {
+	opacity: 1;
+	width: 650px;
+	height: 450px;
+	background-color: white;
+	border-radius: 15px;
+	margin: 0px auto;
+}
+
+.My_mess_imgbox {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.My_mess_leftimg {
+	margin-top: 20px;
+	width: 270px;
+	margin-right: 10px;
+	height: 270px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	user-select: none;
+}
+
+.My_mess_rightimg {
+	margin-top: 20px;
+	width: 270px;
+	margin-left: 10px;
+	height: 270px;
+	border-radius: 50%;
+	padding: 10px;
+	user-select: none;
+}
+
+.My_mess_btninp {
+	cursor: pointer;
+	margin-left: 25px;
+	display: flex;
+	width: 70px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	background-color: #000;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+.My_mess_btninp span {
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+}
+
+.My_mess_fileinp {
+	cursor: pointer;
+	opacity: 0;
+	width: 100px;
+}
+
+.My_mess_btn_box {
+	margin-top: 20px;
+}
+
+.My_mess_btncancel {
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	padding: 0px 10px;
+}
+
+.My_mess_btnreturn {
+
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	padding: 0px 10px;
+	margin-left: 20px;
+}
+
+#My_r_middle {
+	width: 100%;
+	/* min-height: 600px; */
+}
+
+.My_mycenter {
+	background-color: white;
+	width: 100%;
+	/* transform: translateY(20px); */
+}
+
+/* 我的收藏 */
+.My_Collection {
+	height: 687px;
+	background-color: white;
+	display: flex;
+	flex-flow: row nowrap;
+
+}
+
+.My_Collection li {
+	user-select: none;
+	cursor: pointer;
+	
+	
+}
+
+.My_Collection li a{
+	display: block;
+	width: 60%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* 我的足迹 */
+.My_footprint {
+	height: 687px;
+}
+
+/* 系统设置 */
+.My_security {
+	height: 687px;
+}
+
+.My_m_title {
+	border-bottom: 1px solid #000000;
+}
+
+.My_m_title span {
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+
+
+.My_m_icon {
+	width: 16px;
+	height: 16px;
+	margin-left: 20px;
+}
+
+.My_m_nameicon {
+	color: deepskyblue;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.My_name_nameinput {
+	outline: none;
+	padding: 5px 15px;
+	margin-left: 20px;
+	background-color: white;
+	border: 1px solid gainsboro;
+}
+
+.My_name_cancel,
+.My_name_enter {
+	cursor: pointer;
+	margin-left: 10px;
+	border: 1px solid #eee;
+	border-radius: 15px;
+	padding: 3px 15px;
+	background-color: #555;
+	color: #fff;
+	transition: all 100ms;
+	font-weight: bold;
+}
+
+.My_name_enter:hover {
+	background-color: #aaa;
+	color: #333;
+}
+
+.el-progress {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.My_m_sexwomen {
+	margin-left: 20px;
+}
+
+
+
+
+
+.My_bir_inp {
+	margin-left: 20px;
+	outline: none;
+	background-color: lightgrey;
+	padding: 5px 15px;
+}
+
+/* 基础信息 */
+.My_m_content_ul {
+	text-align: left;
+	font-size: 15px;
+}
+
+.My_m_content_li {
+	width: 98%;
+	height: 100px;
+	margin-left: 1%;
+	border-bottom: 1px solid gainsboro;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.My_m_content_li_top {
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.My_m_content_li_span {
+	margin-left: 30px;
+	width: 60px;
+}
+
+.My_m_nameShow {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-left: 50px;
+}
+
+.My_m_hide {
+	margin-left: 50px;
+}
+
+/* 账号设置 */
+.My_useraccount {
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+.My_useraccount_ul {
+	text-align: left;
+	font-size: 15px;
+}
+
+.My_useraccount_li_top {
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.My_useraccount_li {
+	width: 98%;
+	height: 100px;
+	margin-left: 1%;
+	border-bottom: 1px solid gainsboro;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.My_useraccount_li_span {
+	margin-left: 30px;
+
+}
+
+.My_useraccount_li_div_left {}
+
+.My_useraccount_li_div_right {
+	cursor: pointer;
+	user-select: none;
+	color: deepskyblue;
+	position: absolute;
+	right: 10px;
+}
+
+.Svg {
+	width: 16px;
+	height: 16px;
+}
+
+.Svg_all {
+	position: absolute;
+	bottom: 5px;
+	right: 250px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100px;
+}
+
+.Svg_all1 {
+	position: absolute;
+	bottom: 5px;
+	right: 170px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100px;
+}
+
+.Svg_all2 {
+	position: absolute;
+	bottom: 5px;
+	right: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 150px;
+}
+
+.Svg_all3 {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 70px;
+}
+
+.Svg_all_F {
+	position: absolute;
+	bottom: 5px;
+	right: 220px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100px;
+}
+
+.Svg_all_F1 {
+	position: absolute;
+	bottom: 5px;
+	right: 140px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100px;
+}
+
+.Svg_all_F2 {
+	position: absolute;
+	bottom: 5px;
+	right: 60px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 100px;
+}
+
+.Svg_all_F3 {
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	width: 50px;
+}
+
+.Ispasst {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 60px;
+	padding: 5px;
+	text-align: center;
+	height: 18px;
+	font-size: 12.5px;
+	font-weight: bold;
+	line-height: 20px;
+	border-radius: 5px;
+	border: 1px solid #13c100;
+	color: #13c100;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+.Ispassf {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	width: 60px;
+	padding: 5px;
+	text-align: center;
+	height: 18px;
+	font-size: 12.5px;
+	font-weight: bold;
+	line-height: 20px;
+	border-radius: 5px;
+	border: 1px solid red;
+	color: red;
+	cursor: pointer;
+	transition: all 200ms;
+}
